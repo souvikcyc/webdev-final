@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaler Social</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a class = "sstlogo" href="https://www.scaler.com/school-of-technology/</a>">
+            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781" alt="sst-logo">
+        </a>
+        <a class = "sociallogo" href="www.scalersocial.c</a>om">
+            <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764" alt="social-logo">
+        </a>
+    </div>
+    <div class="main">
+        <div class="left-container">
+            <p class="post-thoughts">
+                <b>Post your thoughts here</b>
+            </p>
+            <div class="tweet-box">
+                <p>Word Count : 
+                    <span id="show">0</span>
+                </p>
+                <img class="pfp" src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt="profile-picture" style="margin-top: -100px;">
+                <form>
+                    <div class="container">
+                        <textarea oninput="countWord()" id="tweet" cols="70" rows="3" placeholder="Type your thoughts here....."></textarea>
+                        <input class="submit" type="submit" id="submit" value="Post" name="submit" onclick="pastTweets()"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="feed">
+                <b>Your feed</b>
+                <br>
+            </div>
+            <div class="postedtweets" id="posted">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html></div>
